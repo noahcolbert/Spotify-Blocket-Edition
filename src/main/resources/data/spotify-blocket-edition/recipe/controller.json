@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iAi",
+        "iGi",
+        "iRi"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "A": "minecraft:amethyst_shard",
+        "G": "minecraft:glass_pane",
+        "R": "minecraft:redstone"
+    },
+    "result": {
+        "id": "spotify-blocket-edition:controller",
+        "count": 1
+    },
+    "group": "tools"
+}
