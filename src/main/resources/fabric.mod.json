@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "spotify-blocket-edition",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"name": "Spotify Blocket Edition",
 	"description": "Adds a craftable Spotify interface, allowing immersive playback control in-game!",
 	"authors": [
