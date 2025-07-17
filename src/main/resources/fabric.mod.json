@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "spotify-blocket-edition",
+	"version": "$1.0.0",
+	"name": "Spotify Blocket Edition",
+	"description": "Adds a craftable Spotify interface, allowing immersive playback control in-game!",
+	"authors": [
+		"Thusiast"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spotify-blocket-edition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.thusiast.spotifybe.SpotifyBlocketEdition"
+		],
+		"client": [
+			"com.thusiast.spotifybe.SpotifyBlocketEditionClient"
+		]
+	},
+	"mixins": [
+		"spotify-blocket-edition.mixins.json",
+		{
+			"config": "spotify-blocket-edition.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
