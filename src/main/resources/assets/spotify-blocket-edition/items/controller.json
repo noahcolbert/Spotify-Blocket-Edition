@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "spotify-blocket-edition:item/controller"
+  }
+}
